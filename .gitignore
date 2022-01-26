@@ -3,7 +3,8 @@
 
 # But not these files...
 
-!/notebooks/
+!notebooks/
+!notebooks/*
 !.s2i/
 !Dockerfile
 !requirements.txt
