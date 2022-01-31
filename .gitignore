@@ -6,3 +6,4 @@
 !notebooks/*
 !Dockerfile
 !requirements.txt
+!environment.yml
