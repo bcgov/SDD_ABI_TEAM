@@ -3,7 +3,7 @@
 # But not these files...
 
 !notebooks/
-!notebooks/*
+!notebooks/*.ipynb
 !Dockerfile
 !requirements.txt
 !environment.yml
