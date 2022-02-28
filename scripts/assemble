@@ -16,9 +16,13 @@ rm -f "/home/${NB_USER}/requirements.txt"
 
 # Copy injected files to target directory.
 
-cp -Rf /tmp/src/. "/home/${NB_USER}"
+#cp -Rf /tmp/src/. "/home/${NB_USER}"
 
 rm -rf /tmp/src
+
+# clone repo
+
+git clone https://github.com/bcgov/elmsd-analytics-workbooks.git "/home/${NB_USER}/Git"
 
 # Install any Python modules. If we find an 'environment.yml' file we
 # assume we should use 'conda' to install packages. If 'requirements.txt'
