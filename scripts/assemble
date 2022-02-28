@@ -22,17 +22,17 @@ rm -rf /tmp/src
 
 # clone repo
 
-git clone https://github.com/bcgov/elmsd-analytics-workbooks.git "/home/${NB_USER}/Git"
+git clone https://github.com/bcgov/elmsd-analytics-workbooks.git "/home/${NB_USER}/Git/elmsd-analytics-workbooks"
 
 # Install any Python modules. If we find an 'environment.yml' file we
 # assume we should use 'conda' to install packages. If 'requirements.txt'
 # use 'pip' instead.
 
-if [ -f "/home/${NB_USER}/environment.yml" ]; then
+if [ -f "/home/${NB_USER}/Git/elmsd-analytics-workbooks/notebooks/environment.yml" ]; then
     mamba env update --name root --file "/home/${NB_USER}/environment.yml"
     mamba clean --all -f -y
 else
-    if [ -f "/home/${NB_USER}/requirements.txt" ]; then
+    if [ -f "/home/${NB_USER}/Git/elmsd-analytics-workbooks/notebooks/requirements.txt" ]; then
         pip --no-cache-dir install -r "/home/${NB_USER}/requirements.txt"
     fi
 fi
