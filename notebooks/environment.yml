@@ -307,3 +307,4 @@ dependencies:
   - pip:
     - cx-oracle
     - pyspellchecker
+    - oauthenticator
