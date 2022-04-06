@@ -5,7 +5,7 @@
 
 !notebooks/
 !notebooks/*.ipynb
-!notebooks/analytics
+!notebooks/analytics/*.ipynb
 !Dockerfile
 !requirements.txt
 !environment.yml
