@@ -4,8 +4,9 @@
 # But not these files...
 
 !notebooks/
+notebooks/*
 !notebooks/*.ipynb
-!notebooks/analytics/
+!notebooks/analytics/*
 !Dockerfile
 !requirements.txt
 !environment.yml
