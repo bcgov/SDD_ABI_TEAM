@@ -6,7 +6,9 @@
 !notebooks/
 notebooks/*
 !notebooks/*.ipynb
+notebooks/pwds.ipynb
 !notbooks/analytics
+
 !notebooks/analytics/*.ipynb
 !Dockerfile
 !requirements.txt
