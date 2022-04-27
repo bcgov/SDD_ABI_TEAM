@@ -28,11 +28,11 @@ git clone https://github.com/bcgov/elmsd-analytics-workbooks.git "/home/${NB_USE
 # assume we should use 'conda' to install packages. If 'requirements.txt'
 # use 'pip' instead.
 
-if [ -f "/home/${NB_USER}/Git/elmsd-analytics-workbooks/notebooks/environment.yml" ]; then
+if [ -f "/home/${NB_USER}/work/Git/elmsd-analytics-workbooks/notebooks/environment.yml" ]; then
     mamba env update --name root --file "/home/${NB_USER}/work/Git/elmsd-analytics-workbooks/notebooks/environment.yml"
     mamba clean --all -f -y
 else
-    if [ -f "/home/${NB_USER}/Git/elmsd-analytics-workbooks/notebooks/requirements.txt" ]; then
+    if [ -f "/home/${NB_USER}/work/Git/elmsd-analytics-workbooks/notebooks/requirements.txt" ]; then
         pip --no-cache-dir install -r "/home/${NB_USER}/work/Git/elmsd-analytics-workbooks/notebooks/requirements.txt"
     fi
 fi
