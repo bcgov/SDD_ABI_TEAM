@@ -187,6 +187,7 @@ dependencies:
   - prometheus_client
   - prompt_toolkit
   - psutil
+  - psycopg2
   - py
   - py-lief
   - pycodestyle
