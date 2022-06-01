@@ -43,11 +43,11 @@ dependencies:
   - clyent
   - colorama
 #  - comtypes
-  - conda
-  - conda-build
-  - conda-env
-  - conda-package-handling
-  - conda-verify
+#  - conda
+#  - conda-build
+#  - conda-env
+#  - conda-package-handling
+#  - conda-verify
   - console_shortcut
   - contextlib2
   - cryptography
