@@ -167,7 +167,6 @@ dependencies:
   - pandas
   - pandoc
   - pandocfilters
-  - papermill
   - paramiko
   - parso
   - partd
@@ -309,4 +308,3 @@ dependencies:
   - pip:
     - cx-oracle
     - pyspellchecker
-    - oauthenticator
