@@ -2,7 +2,7 @@
 # Distributed under the terms of the Modified BSD License.
 ARG OWNER=jupyter
 ARG BASE_CONTAINER=$OWNER/base-notebook
-FROM $BASE_CONTAINER
+FROM $BASE_CONTAINER:python-3.9.12
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
