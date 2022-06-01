@@ -167,6 +167,7 @@ dependencies:
   - pandas
   - pandoc
   - pandocfilters
+  - papermill
   - paramiko
   - parso
   - partd
