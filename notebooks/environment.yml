@@ -43,11 +43,11 @@ dependencies:
   - clyent
   - colorama
 #  - comtypes
-  - conda
-  - conda-build
-  - conda-env
-  - conda-package-handling
-  - conda-verify
+#  - conda
+#  - conda-build
+#  - conda-env
+#  - conda-package-handling
+#  - conda-verify
   - console_shortcut
   - contextlib2
   - cryptography
@@ -167,6 +167,7 @@ dependencies:
   - pandas
   - pandoc
   - pandocfilters
+  - papermill
   - paramiko
   - parso
   - partd
@@ -187,6 +188,7 @@ dependencies:
   - prometheus_client
   - prompt_toolkit
   - psutil
+  - psycopg2
   - py
   - py-lief
   - pycodestyle
@@ -307,4 +309,3 @@ dependencies:
   - pip:
     - cx-oracle
     - pyspellchecker
-    - oauthenticator
