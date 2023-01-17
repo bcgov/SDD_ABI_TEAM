@@ -22,7 +22,7 @@ rm -rf /tmp/src
 
 # clone repo
 
-git clone https://github.com/bcgov/elmsd-analytics-workbooks.git "/home/${NB_USER}/work/Git/SDD_ABI_TEAMs"
+git clone https://github.com/bcgov/elmsd-analytics-workbooks.git "/home/${NB_USER}/work/Git/SDD_ABI_TEAM"
 
 # Install any Python modules. If we find an 'environment.yml' file we
 # assume we should use 'conda' to install packages. If 'requirements.txt'
